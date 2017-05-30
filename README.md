@@ -15,9 +15,9 @@ $ python app.py
  * Restarting with stat
  * Debugger is active!
  * Debugger pin code: 245-058-488
-127.0.0.1 - - [30/Nov/2016 17:59:38] "GET / HTTP/1.1" 200 -
 
 Visit localhost:5000 in your preferred browser to see the web app.
 
 Additionally, if you just wanted a sentence generated in the terminal, run:
+
 $ python run.py cybercorpus.txt
