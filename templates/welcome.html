@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cyber Ipsum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cyber Ipsum</h2>
+      <br>
+
+
+      <iframe src="//giphy.com/embed/l4Ki6oZ4oPrrgLl9m" width="500" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/garbage-dumpster-fire-l4Ki6oZ4oPrrgLl9m"></a></p>
+      <p> Because infosec is a dumpster fire </p>
+
+      <form action="form" method="post">
+
+        Generate your cyber paragraphs:
+          <input type="submit" value="Submit">
+      </form>
+
+      <br>
+      <br>
+      <p><textarea id="outputText" rows=15 cols=68 wrap=on readonly>
+      {{ subprocess_output_all}}
+
+      </textarea></p>
+
+      <!--
+      {% for sentence in paragraphs %}
+      <li>{{ subprocess_output }}</li>
+      <p>stuff</p>
+      {% endfor %}
+      -->
+    </div>
+  </body>
+</html>
